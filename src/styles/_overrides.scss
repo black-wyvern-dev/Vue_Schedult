@@ -1,0 +1,150 @@
+button {
+    outline: none!important;
+}
+input,select,button {
+  &:focus{
+    outline: 0!important;
+    box-shadow: unset!important;
+  }
+}
+.ui.fluid.dropdown{
+width: 65%!important;
+
+}
+p{
+  margin-bottom: 0px!important;
+}
+
+// .v-menu__content {
+//     min-width: unset!important;
+//     left: 15px!important;
+// }
+.top-header {
+    .theme--light.v-text-field>.v-input__control>.v-input__slot:before {
+        border: none!important;
+    }
+    .v-text-field>.v-input__control>.v-input__slot:after {
+        border: none!important;
+    }
+    .theme--light.v-input input{
+        color: #FFF!important;
+        &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #FFF;
+            opacity: 1; /* Firefox */
+          }
+          
+        &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color:#FFF;
+          }
+          
+        &::-ms-input-placeholder { /* Microsoft Edge */
+            color: #FFF;
+          }
+    }
+}
+.v-overlay__scrim {
+  background-color: transparent!important;
+  opacity: 1 !important;
+  border-color: transparent!important;
+}
+// Form group
+.form-group {
+  margin-bottom: 0px!important;
+}
+
+//custom-datepicker
+.v-menu.custom-datepicker {
+  + .v-text-field { 
+     margin-top: 0px!important;
+     padding-top: 0px!important;
+     .v-input__slot{
+       margin-bottom: 0px!important;
+       background: white!important;
+       padding: 2px!important;
+       border: 1px solid #ced4da!important;
+       &::before{
+        border-color: inherit!important;
+       }
+     }
+     .v-text-field__details{
+       display: none!important;
+     }
+    }
+}
+
+// .v-menu__content.theme--light{
+//  min-width: unset!important;
+// }
+
+// Flat date picker
+.input-date-picker.form-control.input{
+  &.transparent {
+    background-color: transparent!important;
+    color: #FFF!important;
+    border: none!important;
+    text-align: center;
+  }
+  &.w-150{
+    width: 150px!important;
+  }
+  &.w-180{
+    width: 180px!important;
+  }
+  &.w-250{
+    width: 250px!important;
+  }
+}
+
+//autocomplete
+.v-autocomplete{
+     color: unset!important;
+     caret-color: unset!important;
+     .v-input__slot{
+       background: transparent!important;
+     }
+   
+}
+
+// scheduler
+
+.b-sch-event-content, .b-sch-event-content + div {
+  height:100%!important
+}
+.b-widget.b-menuitem.b-html{
+  display: none!important;
+}
+.b-widget.b-menuitem{
+  padding: 5px!important;
+  border-top: none!important;
+  min-width: 12em!important;
+  &:last-child{
+    span.b-menu-text {
+      color: red!important;
+    }
+  }
+}
+.b-widget.b-menuitem.b-html[data-ref="addEvent"]{
+  display: block!important;
+  i{
+    display: none!important;
+  }
+    span{
+    visibility: hidden;
+    position: relative;
+    &:after {
+      color: #4f5964!important;
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "Schedule";
+  }
+  }
+}
+.b-menu-with-icon {
+  span.b-menu-text{
+  margin-left: 10px!important;
+  }
+
+}
+

@@ -1,0 +1,45 @@
+.scheduler-component {
+  .top-header {
+      height: 60px;
+      width: 100vw;
+      padding: 12px;
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 30px;
+      align-items: center;
+      label {
+        margin-bottom: unset!important;
+      }
+  }
+  .b-resourceheader-cell {
+    background-color:#141490d9;
+    color: white;
+}
+.b-resourceheader-cell:hover {
+    background-color: #e0e4e8;
+    color: black;
+}
+label{
+  color: #030323;
+}
+.form-row {
+    height: 75px;
+}
+.form-group.w-50 {
+    padding-top: 10px;
+}
+.button1{
+  height: 28px;
+  width: 28px;
+  border-radius: 14px;
+  background-color: #000a69;
+}
+.button2{
+  height: 28px;
+  width: 28px;
+  border-radius: 14px;
+  background-color:#cccccc;
+  margin-right: 10px;
+}
+
+}

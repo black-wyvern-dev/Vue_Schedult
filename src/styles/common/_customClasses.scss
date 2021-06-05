@@ -1,0 +1,218 @@
+@import "./variables";
+
+// ======================================================================================
+// COLORS
+// ======================================================================================
+
+// text classes
+.text-primary {
+  color: rgba($primary, 1) !important;
+}
+
+.text-accent {
+  color: rgba($accent, 1) !important;
+}
+
+.text-secondary {
+  color: rgba($secondary, 1) !important;
+}
+
+.text-info {
+  color: rgba($info, 1) !important;
+}
+
+.text-success {
+  color: rgba($success, 1) !important;
+}
+
+.text-danger {
+  color: rgba($danger, 1) !important;
+}
+
+.text-warning {
+  color: rgba($warning, 1) !important;
+}
+
+.text-dark {
+  color: rgba($dark, 1) !important;
+}
+
+.text-light {
+  color: rgba($dark, .5) !important;
+}
+
+// background classes
+
+.bg-primary {
+  background-color: rgba($primary, 1) !important;
+}
+
+.bg-accent {
+  background-color: rgba($accent, 1) !important;
+}
+
+.bg-secondary {
+  background-color: rgba($secondary, 1) !important;
+}
+
+.bg-info {
+  background-color: rgba($info, 1) !important;
+}
+
+.bg-success {
+  background-color: rgba($success, 1) !important;
+}
+
+.bg-danger {
+  background-color: rgba($danger, 1) !important;
+}
+
+.bg-warning {
+  background-color: rgba($warning, 1) !important;
+}
+
+.bg-dark {
+  background-color: rgba($dark, 1) !important;
+}
+
+.bg-light {
+  background-color: rgba(var(--vs-light), .5) !important;
+}
+
+.bg-body-color {
+  background-color: $theme-background !important;
+}
+
+
+// border classes
+
+.border-primary {
+  border-color: rgba($primary, 1) !important;
+}
+
+.border-accent {
+  border-color: rgba($accent, 1) !important;
+}
+
+.border-secondary {
+  border-color: rgba($secondary, 1) !important;
+}
+
+.border-info {
+  border-color: rgba($info, 1) !important;
+}
+
+.border-success {
+  border-color: rgba($success, 1) !important;
+}
+
+.border-danger {
+  border-color: rgba($danger, 1) !important;
+}
+
+.border-warning {
+  border-color: rgba($warning, 1) !important;
+}
+
+.border-dark {
+  border-color: rgba($dark, 1) !important;
+}
+
+// hover background classes
+
+.hover\:bg-primary {
+  &:hover {
+    background-color: rgba($primary, 1) !important;
+  }
+}
+
+.hover\:bg-accent {
+  &:hover {
+    background-color: rgba($accent, 1) !important;
+  }
+}
+
+.hover\:bg-secondary {
+  &:hover {
+    background-color: rgba($secondary, 1) !important;
+  }
+}
+
+.hover\:bg-info {
+  &:hover {
+    background-color: rgba($info, 1) !important;
+  }
+}
+
+.hover\:bg-success {
+  &:hover {
+    background-color: rgba($success, 1) !important;
+  }
+}
+
+.hover\:bg-danger {
+  &:hover {
+    background-color: rgba($danger, 1) !important;
+  }
+}
+
+.hover\:bg-warning {
+  &:hover {
+    background-color: rgba($warning, 1) !important;
+  }
+}
+
+.hover\:bg-dark {
+  &:hover {
+    background-color: rgba($dark, 1) !important;
+  }
+}
+
+// hover text colors
+.hover\:text-primary {
+  &:hover {
+    color: rgba($primary, 1) !important;
+  }
+}
+
+.hover\:text-accent {
+  &:hover {
+    color: rgba($accent, 1) !important;
+  }
+}
+
+.hover\:text-secondary {
+  &:hover {
+    color: rgba($secondary, 1) !important;
+  }
+}
+
+.hover\:text-info {
+  &:hover {
+    color: rgba($info, 1) !important;
+  }
+}
+
+.hover\:text-success {
+  &:hover {
+    color: rgba($success, 1) !important;
+  }
+}
+
+.hover\:text-danger {
+  &:hover {
+    color: rgba($danger, 1) !important;
+  }
+}
+
+.hover\:text-warning {
+  &:hover {
+    color: rgba($warning, 1) !important;
+  }
+}
+
+.hover\:text-dark {
+  &:hover {
+    color: rgba($dark, 1) !important;
+  }
+}
